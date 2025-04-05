@@ -12,7 +12,7 @@ function arrayMethod(){
     
     // console.log(newString)
 
-    // }
+    // }0,
 
     // function camelize(str) {
     //     return str

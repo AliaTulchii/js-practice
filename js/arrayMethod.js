@@ -178,6 +178,177 @@ function arrayMethod(){
 // groupById(users);
 
 //   console.log(usersById)
+
+//task 13//
+
+// function getExtremeElements(array) {
+//     // Change code below this line
+//     let newArray = []
+  
+//     let firstEl = array.pop()
+//     let lastEl = array.shift()
+  
+//     newArray.push(firstEl)
+//     newArray.push(lastEl)
+//     console.log(newArray)
+  
+//     // Change code above this line
+//   }
+//   getExtremeElements([1, 2, 3, 4, 5])  
+
+//task14//
+// function splitMessage(message, delimiter) {
+//     let words;
+//     // Change code below this line
+//    words = message.split(delimiter)
+//     // Change code above this line
+//     return words;
+//   }
+//   splitMessage('best_for_week', '_')  
+
+//task15//
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//     // Change code below this line
+//    let array = []
+//    let totalPrice
+ 
+//    array = message.split(" ")
+//    totalPrice = array.length * pricePerWord
+ 
+//    return totalPrice
+ 
+ 
+//     // Change code above this line
+//  }
+
+//  calculateEngravingPrice('JavaScript is in my blood', 10)
+
+//task16//
+
+// function slugify(title) {
+//     // Change code below this line
+//     let array = title.split(' ')
+//     let slugString = array.join('-').toLowerCase()
+//     console.log(slugString)
+//     return slugString
+//   }
+
+//   slugify('How to become a JUNIOR developer for TWO WEEKS')
+
+//task17//
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, fruits.length-1);
+// const lastThreeEls = fruits.slice(-3);
+
+//task18//
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+
+//     let array = firstArray.concat(secondArray).slice(0, maxLength)
+     
+// console.log(array)
+// return array
+  
+
+//     // Change code above this line
+//   }
+//   makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3)
+
+
+//task19//
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i< fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+//task 20//
+// function findLongestWord(string) {
+//     // Change code below this line
+//     let array = string.split(' ')
+//     let longestWord = ''
+//     for (let i = 0; i < array.length; i += 1) {
+//       if (array[i].length >= longestWord.length) {
+//         longestWord = array[i]
+//       }
+//     }
+  
+//   return longestWord
+//     // Change code above this line
+//   }
+
+//   findLongestWord("The quick brown fox jumped over the lazy dog")
+
+// //task 21//
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+//     // Change code below this line
+//   for (let i = min; i <= max; i+=1) {
+//     numbers.push(i)
+//   }
+//     // Change code above this line
+//     return numbers;
+//   }
+
+//   createArrayOfNumbers(1, 3) 
+
+//task 22//
+
+// function filterArray(numbers, value) {
+//     // Change code below this line
+//  let newArray=[]
+ 
+//    for (let i = 0; i <= numbers.length; i++) {
+//      if (numbers[i] > value) {
+//        newArray.push(numbers[i])
+//      }
+     
+//    }
+ 
+//  return newArray
+//    // Change code above this line
+//  }
+
+//  filterArray([1, 2, 3, 4, 5], 3)
+
+//task 23//
+// function getCommonElements(array1, array2) {
+//     // Change code below this line
+//   let newArray = []
+//     for (let item of array1) {
+//       if (array2.includes(item)) {
+//           newArray.push(item)
+//       }
+//     }
+//    return newArray
+  
+//    // Change code above this line
+//   }
+//   getCommonElements([1, 2, 3], [2, 4])
+
+//task 24//
+// function getEvenNumbers(start, end) {
+//     let newArray = []
+//      // Change code below this line
+//   for (let i = start; i <= end; i++) {
+//     if( i % 2 === 0){
+//       newArray.push(i)
+//     }
+//   }
+  
+//     return newArray
+  
+//       // Change code above this line
+//     }
+
+//     getEvenNumbers(2, 5)
+
+
 }
 
 arrayMethod()
